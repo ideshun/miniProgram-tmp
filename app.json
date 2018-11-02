@@ -1,11 +1,11 @@
 {
   "pages": [
-
+    "pages/index/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "Deshun for 小程序",
     "navigationBarBackgroundColor": "#f8f8f8",
     "backgroundColor": "#f8f8f8"
-  },
+  }
 }
