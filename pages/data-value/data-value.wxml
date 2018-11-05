@@ -1,0 +1,2 @@
+<!--pages/data-value/data-value.wxml-->
+<view>{{text}}</view>
