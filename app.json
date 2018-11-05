@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/data-value/data-value"
+    "pages/data-value/data-value",
+    "pages/participating/participating"
   ],
   "window": {
     "navigationBarTextStyle": "black",
