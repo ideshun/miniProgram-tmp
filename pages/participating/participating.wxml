@@ -1,0 +1,18 @@
+<!--pages/participating/participating.wxml-->
+<view class='page_container'>
+  <view class='page_modules'>
+    <view class='modules_flex'>
+      <view class='user-list'>
+        <image class='user-avatar' mode='aspectFill' src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3859421672,511986628&fm=200&gp=0.jpg' />
+        <image class='user-avatar' mode='aspectFill' src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3197537752,2095789724&fm=27&gp=0.jpg' />
+        <image class='user-avatar' mode='aspectFill' src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1652165991,1699659763&fm=200&gp=0.jpg' />
+        <image class='user-avatar' mode='aspectFill' src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1091628847,41930541&fm=27&gp=0.jpg' />
+        <image class='user-avatar' mode='aspectFill' src='http://img1.imgtn.bdimg.com/it/u=1788562038,3472846301&fm=26&gp=0.jpg' />
+        <image class='user-avatar' mode='aspectFill' src='http://img3.imgtn.bdimg.com/it/u=850016154,2966264409&fm=26&gp=0.jpg' />
+        <image class='user-avatar' mode='aspectFill' src='http://img0.imgtn.bdimg.com/it/u=2715876504,4086870916&fm=26&gp=0.jpg' />
+        <image class='user-avatar' mode='aspectFill' src='http://img0.imgtn.bdimg.com/it/u=3800199258,804510880&fm=26&gp=0.jpg' />
+        <text class='user-list-text'>等666+人正在参与</text>
+      </view>
+    </view>
+  </view>
+</view>
