@@ -1,0 +1,9 @@
+.page_container{
+  padding: 20rpx;
+}
+.page_modules{
+
+}
+.modules_flex{
+  display: flex;
+}
