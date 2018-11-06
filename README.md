@@ -10,5 +10,5 @@
 预览图：
 ![正在参与的人数（participating）](https://github.com/ideshun/miniProgram-tmp/blob/master/data/images/participating.png)
 <ol>
-  <li>网址：[点击前往GitHub地址](https://github.com/ideshun/miniProgram-tmp/tree/master/pages/data-value)</li>
+  <li>网址：[点击前往GitHub地址](https://github.com/ideshun/miniProgram-tmp/tree/master/pages/participating)</li>
 </ol>
