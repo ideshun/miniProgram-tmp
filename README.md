@@ -5,3 +5,8 @@
   <li>网址：[点击前往GitHub地址](https://github.com/ideshun/miniProgram-tmp/tree/master/pages/data-value)</li>
   <li>教程：[点击前往我的博客](https://www.w3h5.com/post/156.html)</li>
 </ol>
+## 正在参与的人数（participating）
+<ol>
+  预览图：![多少人正在参与（participating）](https://github.com/ideshun/miniProgram-tmp/blob/master/data/images/participating.png "participating")
+  <li>网址：[点击前往GitHub地址](https://github.com/ideshun/miniProgram-tmp/tree/master/pages/data-value)</li>
+</ol>
