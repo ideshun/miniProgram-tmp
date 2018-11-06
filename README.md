@@ -7,6 +7,7 @@
 </ol>
 ## 正在参与的人数（participating）
 <ol>
-  预览图：![正在参与的人数（participating）](https://github.com/ideshun/miniProgram-tmp/blob/master/data/images/participating.png)
+  预览图：
+  ![正在参与的人数（participating）](https://github.com/ideshun/miniProgram-tmp/blob/master/data/images/participating.png)
   <li>网址：[点击前往GitHub地址](https://github.com/ideshun/miniProgram-tmp/tree/master/pages/data-value)</li>
 </ol>
