@@ -14,4 +14,4 @@
 - 预览图：  
 ![语音作品列表（audio-list）](https://github.com/ideshun/miniProgram-tmp/blob/master/data/images/audio-list.png)
 - 网址：
-[点击前往GitHub地址](https://github.com/ideshun/miniProgram-tmp/tree/master/pages/audio-list "GitHub地址")
+[点击前往GitHub地址](https://github.com/ideshun/miniProgram-tmp/tree/master/pages/audio/audio-list "GitHub地址")
