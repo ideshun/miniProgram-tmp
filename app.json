@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/data-value/data-value",
-    "pages/participating/participating"
+    "pages/participating/participating",
+    "pages/audio-list/audio-list"
   ],
   "window": {
     "navigationBarTextStyle": "black",

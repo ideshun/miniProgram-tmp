@@ -1,0 +1,39 @@
+<!--pages/voice-list/voice-list.wxml-->
+<view class='av-list'>
+<!-- 循环一下内容 -->
+  <view class='avlist-item'>
+  <!-- 用户头像区 -->
+    <view class='audio-user'>
+      <image class='avuser-avatar' src='http://img.name2012.com/uploads/allimg/180315/21264V405-9.jpg' mode='aspectFill' />
+      <view class='avuser-info'>
+        <view class='avuser-name'>图兔兔吐突突</view>
+        <view class='avuser-time'>11/09</view>
+      </view>
+    </view>
+    <!-- 录音展示区 -->
+    <view class='audio-item'>
+      <image class='audio-bg' src='http://img.name2012.com/uploads/allimg/180315/21264V405-9.jpg' mode='aspectFill' />
+      <view class='audio-text'>不做不可及的梦，这使我的睡眠安恬。避开无事时过分热络的友谊，这使我少些负担和承诺。不说无谓的闲言，这使我觉得清畅</view>
+      <view class='audio-btn-box' bindtap='clickPlay' bind:longpress="audioStop">
+        <image class='audio-img' style='transform:rotate({{rotateNum}}deg);' src='http://img.name2012.com/uploads/allimg/180315/21264V405-9.jpg' mode='widthFix' />
+        <image class='audio-btn' src='{{aPlay?"/images/pause.png":"/images/start.png"}}' />
+      </view>
+      <audio src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" bindtimeupdate="audioTimeUpdated" controls="{{false}}"></audio>
+      <view class='audio-progress'>
+        <slider bindchange="slider3change" selected-color="#44B549" bindchange="changeProgress" value="{{playProgress}}" block-size="12" disabled/>
+        <text>{{currentTime}}</text>
+      </view>
+      <view class='audio-progress' style='display:none;'>
+        <progress percent="{{playProgress}}" border-radius="3" stroke-width="3" />
+        <text>{{currentTime}}</text>
+      </view>
+    </view>
+    <!-- 互动区 -->
+    <view class='av-inte-box'>
+      <view class='av-inte'><image class='av-inte-icon' src='/images/share.png'></image> <text>5</text></view>
+      <view class='av-inte'><image class='av-inte-icon' src='/images/contact.png'></image> <text>5</text></view>
+      <view class='av-inte'><image class='av-inte-icon' src='/images/like.png'></image> <text>5</text></view>
+      <view class='av-inte'><image class='av-inte-icon' src='/images/red-packet.png'></image></view>
+    </view>
+  </view>
+</view>
