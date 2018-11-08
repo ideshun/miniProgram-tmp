@@ -27,13 +27,36 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 2,
+			"list": [
+				{
+					"id": 0,
+					"name": "data的赋值与取值",
+					"pathName": "pages/data-value/data-value",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "正在参与",
+					"pathName": "pages/participating/participating",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "语音列表",
+					"pathName": "pages/audio-list/audio-list",
+					"query": ""
+				}
+			]
 		}
 	}
 }
