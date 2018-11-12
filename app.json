@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/data-value/data-value",
     "pages/participating/participating",
-    "pages/audio/audio-list/audio-list"
+    "pages/audio/audio-list/audio-list",
+    "pages/audio/audio-detail/audio-detail"
   ],
   "window": {
     "navigationBarTextStyle": "black",
