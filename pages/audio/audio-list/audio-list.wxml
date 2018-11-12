@@ -18,7 +18,7 @@
         <image class='audio-img' style='transform:rotate({{rotateNum}}deg);' src='http://img.name2012.com/uploads/allimg/180315/21264V405-9.jpg' mode='widthFix' />
         <image class='audio-btn' src='{{aPlay?"/images/pause.png":"/images/start.png"}}' />
       </view>
-      <audio src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" bindtimeupdate="audioTimeUpdated" controls="{{false}}"></audio>
+      <!-- <audio src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" bindtimeupdate="audioTimeUpdated" controls="{{false}}"></audio> -->
       <view class='audio-progress'>
         <slider bindchange="slider3change" selected-color="#44B549" bindchange="changeProgress" value="{{playProgress}}" block-size="12" disabled/>
         <text>{{currentTime}}</text>
