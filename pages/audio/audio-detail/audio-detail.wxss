@@ -1,0 +1,28 @@
+/* pages/audio/audio-detail/audio-detail.wxss */
+@import "../audio.wxss";
+
+.audio-bg {
+  width: 750rpx;
+}
+
+.audio-user {
+  padding: 20rpx 20rpx 10rpx;
+}
+
+.audio-item {
+  text-align: center;
+  padding-top: 80rpx;
+}
+
+.audio-btn-box {
+  display: inline-block;
+}
+
+.audio-text {
+  padding: 20rpx 30rpx 80rpx;
+}
+
+.av-inte-box {
+  padding: 30rpx 50rpx 20rpx;
+  border-bottom: 15rpx solid #f2f2f2;
+}
