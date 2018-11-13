@@ -4,7 +4,8 @@
     "pages/data-value/data-value",
     "pages/participating/participating",
     "pages/audio/audio-list/audio-list",
-    "pages/audio/audio-detail/audio-detail"
+    "pages/audio/audio-detail/audio-detail",
+    "pages/audio/comment/comment"
   ],
   "window": {
     "navigationBarTextStyle": "black",
