@@ -1,0 +1,56 @@
+<!--pages/audio/comment/comment.wxml-->
+<view class='comment-item'>
+  <view class='comm-user'>
+    <image class='comm-avatar' src='http://img3.imgtn.bdimg.com/it/u=1754151008,1595387707&fm=11&gp=0.jpg'></image>
+    <view class='comm-user-info'>
+      <view class='comm-user-name'>哇咔卡哇伊</view>
+      <view class='comm-user-date'>11/11</view>
+    </view>
+  </view>
+  <view class='comm-info'>
+    <view class='comm-text'>
+      不说不刻字母，这时候睡眠情况，低头是石鼓的热事一，这时候少妻夫留守，不说无谓的闲言，只是我觉得，请茶。
+    </view>
+    <view class='comm-audio-box'>
+      <image class='comm-audio-btn' src='/images/voice.gif' />
+      <text class='comm-audio-time'>19"</text>
+    </view>
+  </view>
+</view>
+
+<view class='comm-inBox'>
+  <view class='comment-item'>
+    <view class='comm-user'>
+      <image class='comm-avatar' src='http://img3.imgtn.bdimg.com/it/u=1754151008,1595387707&fm=11&gp=0.jpg'></image>
+      <view class='comm-user-info'>
+        <view class='comm-user-name'>哇咔卡哇伊 <text class='landlord-bar'>楼主</text></view>
+        <view class='comm-user-date'>11/11</view>
+      </view>
+    </view>
+    <view class='comm-info'>
+      <view class='comm-text'>
+        不说不刻字母，这时候睡眠情况，低头是石鼓的热事一，这时候少妻夫留守，不说无谓的闲言，只是我觉得，请茶。
+      </view>
+    </view>
+  </view>
+  <view class='comment-item'>
+    <view class='comm-user'>
+      <image class='comm-avatar' src='http://img3.imgtn.bdimg.com/it/u=1754151008,1595387707&fm=11&gp=0.jpg'></image>
+      <view class='comm-user-info'>
+        <view class='comm-user-name'>哇咔卡哇伊 <text class='landlord-bar'>楼主</text></view>
+        <view class='comm-user-date'>11/11</view>
+      </view>
+    </view>
+    <view class='comm-info'>
+      <view class='comm-text'>
+        回复 <text class='inBox-user-name'>六十六：</text>不说不刻字母，这时候睡眠情况，低头是石鼓的热事一，这时候少妻夫留守，不说无谓的闲言，只是我觉得，请茶。
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 回复区 -->
+<view class='comment-publish'>
+  <image src='/images/recording.png'></image>
+  <input placeholder='评论...'></input>
+  <navigator class='publish-btn'>发表</navigator>
+</view>
