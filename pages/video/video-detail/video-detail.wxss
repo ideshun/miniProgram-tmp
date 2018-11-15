@@ -1,0 +1,136 @@
+/* pages/video/video-detail/video-detail.wxss */
+@import "../video.wxss";
+
+
+/* 评论区 */
+.comment-container{
+  padding-bottom: 110rpx;
+}
+.comment-topBar {
+  font-size: 14px;
+  padding: 20rpx;
+  border-bottom: 2rpx solid #f2f2f2;
+}
+
+.comment-sort {
+  float: right;
+}
+
+.comment-item {
+  padding: 20rpx;
+  border-bottom: 2rpx solid #f2f2f2;
+}
+
+.comm-avatar {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+}
+
+.comm-user-info {
+  display: inline-block;
+  line-height: 30rpx;
+  vertical-align: top;
+  margin-left: 20rpx;
+}
+
+.comm-user-name {
+  font-size: 12px;
+  margin-top: 5rpx;
+}
+
+.comm-user-date {
+  font-size: 11px;
+  color: gray;
+}
+
+.comm-info {
+  font-size: 12px;
+  padding-left: 80rpx;
+}
+
+.comm-audio-box {
+  width: 350rpx;
+  height: 60rpx;
+  margin: 20rpx 0 5rpx;
+  box-sizing: border-box;
+  padding: 0 10rpx;
+  border-radius: 30rpx;
+  background: linear-gradient(to right, #1e90ff, #436eee);
+}
+
+.comm-audio-btn {
+  width: 30rpx;
+  height: 30rpx;
+  padding: 15rpx;
+}
+
+.comm-audio-time {
+  color: #fff;
+  float: right;
+  padding: 15rpx 10rpx;
+}
+
+.comm-inBox {
+  border-radius: 10rpx;
+  margin-top: 15rpx;
+  padding: 10rpx 20rpx;
+  background: #f2f2f2;
+}
+
+.inBox-info {
+  margin: 8rpx 0;
+}
+
+.inBox-user-name {
+  color: #1e90ff;
+}
+
+.inBox-more {
+  margin: 8rpx 0;
+  color: #1e90ff;
+}
+
+/* 发评论 */
+
+.comment-publish {
+  position: fixed;
+  box-sizing: border-box;
+  bottom: 0;
+  left: 0;
+  border-top: 1rpx solid #f2f2f2;
+  width: 100%;
+  background: #fff;
+  padding: 10rpx 20rpx;
+}
+
+.comment-publish image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 15rpx;
+}
+
+.comment-publish input {
+  display: inline-block;
+  width: 500rpx;
+  height: 52rpx;
+  line-height: 52rpx;
+  border: 2rpx solid #f2f2f2;
+  border-radius: 10rpx;
+  padding: 0 10rpx;
+  font-size: 13px;
+}
+
+.publish-btn {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  width: 100rpx;
+  height: 55rpx;
+  line-height: 55rpx;
+  border-radius: 10rpx;
+  background: #1e90ff;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}

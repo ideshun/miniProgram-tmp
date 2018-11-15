@@ -1,0 +1,67 @@
+<!--pages/video/video-list/video-list.wxml-->
+<view class='av-list'>
+<!-- 循环一下内容 -->
+  <view class='avlist-item'>
+  <!-- 用户头像区 -->
+    <view class='video-user'>
+      <image class='avuser-avatar' src='http://img.name2012.com/uploads/allimg/180315/21264V405-9.jpg' mode='aspectFill' />
+      <view class='avuser-info'>
+        <view class='avuser-name'>图兔兔吐突突</view>
+        <view class='avuser-time'>11/09</view>
+      </view>
+    </view>
+    <!-- 视频展示区 -->
+    <view class='video-item'>
+      <view class='video-text'>不做不可及的梦，这使我的睡眠安恬。避开无事时过分热络的友谊，这使我少些负担和承诺。不说无谓的闲言，这使我觉得清畅</view>
+      <video class='video-box' id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    </view>
+  </view>
+  <!-- 互动区 -->
+  <view class='av-inte-box'>
+    <view class='av-inte'><image class='av-inte-icon' src='/images/share.png'></image> <text>5</text></view>
+    <view class='av-inte'><image class='av-inte-icon' src='/images/contact.png'></image> <text>5</text></view>
+    <view class='av-inte'><image class='av-inte-icon' src='/images/like.png'></image> <text>5</text></view>
+    <view class='av-inte'><image class='av-inte-icon' src='/images/red-packet.png'></image></view>
+  </view>
+</view>
+
+<!-- 评论区 -->
+<view class='comment-container'>
+  <view class='comment-topBar'>
+    评论
+    <view class='comment-sort'>最热</view>
+  </view>
+  <view class='comment-item'>
+    <view class='comm-user'>
+      <image class='comm-avatar' src='http://img3.imgtn.bdimg.com/it/u=1754151008,1595387707&fm=11&gp=0.jpg'></image>
+      <view class='comm-user-info'>
+        <view class='comm-user-name'>哇咔卡哇伊</view>
+        <view class='comm-user-date'>11/11</view>
+      </view>
+    </view>
+    <view class='comm-info'>
+      <view class='comm-text'>
+        不说不刻字母，这时候睡眠情况，低头是石鼓的热事一，这时候少妻夫留守，不说无谓的闲言，只是我觉得，请茶。
+      </view>
+      <view class='comm-audio-box'>
+        <image class='comm-audio-btn' src='/images/voice.gif' />
+        <text class='comm-audio-time'>19"</text>
+      </view>
+      <view class='comm-inBox'>
+        <view class='inBox-info'>
+          <text class='inBox-user-name'>白炽灯</text> 回复 王美丽：好听吗？
+        </view>
+        <view class='inBox-info'>
+          <text class='inBox-user-name'>王美丽</text>：好听
+        </view>
+        <navigator url='/pages/audio/comment/comment' class='inBox-more'>查看3条评论</navigator>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 回复区 -->
+<view class='comment-publish'>
+  <image src='/images/recording.png'></image>
+  <input placeholder='评论...'></input>
+  <navigator class='publish-btn'>发表</navigator>
+</view>
