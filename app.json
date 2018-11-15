@@ -5,7 +5,9 @@
     "pages/participating/participating",
     "pages/audio/audio-list/audio-list",
     "pages/audio/audio-detail/audio-detail",
-    "pages/audio/comment/comment"
+    "pages/audio/comment/comment",
+    "pages/video/video-list/video-list",
+    "pages/video/video-detail/video-detail"
   ],
   "window": {
     "navigationBarTextStyle": "black",
