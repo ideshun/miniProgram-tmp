@@ -1,0 +1,26 @@
+<!--pages/video/video-list/video-list.wxml-->
+<view class='av-list'>
+<!-- 循环一下内容 -->
+  <view class='avlist-item'>
+  <!-- 用户头像区 -->
+    <view class='video-user'>
+      <image class='avuser-avatar' src='http://img.name2012.com/uploads/allimg/180315/21264V405-9.jpg' mode='aspectFill' />
+      <view class='avuser-info'>
+        <view class='avuser-name'>图兔兔吐突突</view>
+        <view class='avuser-time'>11/09</view>
+      </view>
+    </view>
+    <!-- 视频展示区 -->
+    <view class='video-item'>
+      <view class='video-text'>不做不可及的梦，这使我的睡眠安恬。避开无事时过分热络的友谊，这使我少些负担和承诺。不说无谓的闲言，这使我觉得清畅</view>
+      <video class='video-box' id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    </view>
+    <!-- 互动区 -->
+    <view class='av-inte-box'>
+      <view class='av-inte'><image class='av-inte-icon' src='/images/share.png'></image> <text>5</text></view>
+      <view class='av-inte'><image class='av-inte-icon' src='/images/contact.png'></image> <text>5</text></view>
+      <view class='av-inte'><image class='av-inte-icon' src='/images/like.png'></image> <text>5</text></view>
+      <view class='av-inte'><image class='av-inte-icon' src='/images/red-packet.png'></image></view>
+    </view>
+  </view>
+</view>
