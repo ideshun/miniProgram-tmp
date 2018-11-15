@@ -1,0 +1,102 @@
+.av-list{
+  border-bottom: 15rpx solid #f2f2f2;
+}
+.avlist-item {
+  padding: 20rpx;
+  background: #fff;
+}
+
+.avuser-avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.avuser-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20rpx;
+}
+
+.avuser-name {
+  font-size: 14px;
+  margin-top: 6rpx;
+  color: #666;
+}
+
+.avuser-time {
+  font-size: 12px;
+  color: gray;
+}
+
+
+.avuser-avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.avuser-info {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20rpx;
+}
+
+.avuser-name {
+  font-size: 14px;
+  margin-top: 6rpx;
+  color: #666;
+}
+
+.avuser-time {
+  font-size: 12px;
+  color: gray;
+}
+
+.video-item {
+  position: relative;
+  padding: 10rpx;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.video-text {
+  position: relative;
+  font-size: 14px;
+  line-height: 42rpx;
+  z-index: 9;
+}
+.video-box{
+  width: 100%;
+  height: 390rpx;
+  margin-top: 10rpx;
+}
+/* 互动区 */
+.av-inte-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 40rpx;
+  font-size: 14px;
+  color: #707070;
+  border-top: 2rpx solid #f2f2f2;
+}
+
+.av-inte-icon {
+  box-sizing: border-box;
+  width: 45rpx;
+  height: 45rpx;
+  padding: 6rpx;
+  border-radius: 50%;
+  border: 2rpx solid #707070;
+  margin-right: 50rpx;
+  vertical-align: middle;
+  margin-top: -5rpx;
+}
+
+.av-inte:last-child .av-inte-icon {
+  border-radius: 0;
+  border: none;
+  padding: 4rpx;
+  margin-right: 0;
+}
