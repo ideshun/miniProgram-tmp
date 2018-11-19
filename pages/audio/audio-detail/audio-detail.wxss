@@ -28,9 +28,11 @@
 }
 
 /* 评论区 */
-.comment-container{
+
+.comment-container {
   padding-bottom: 110rpx;
 }
+
 .comment-topBar {
   font-size: 14px;
   padding: 20rpx;
