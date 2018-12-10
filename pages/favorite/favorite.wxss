@@ -1,0 +1,24 @@
+/* pages/favorite/favorite.wxss */
+.page_container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.good-item{
+  width: 300rpx;
+  border: 2rpx solid #f2f2f2;
+  background: #f8f8f8;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  margin-bottom: 30rpx;
+}
+.good-img{
+  width: 100%;
+}
+.fav-box{
+  text-align: center;
+}
+.fav-icon{
+  width: 30rpx;
+  height: 30rpx;
+}

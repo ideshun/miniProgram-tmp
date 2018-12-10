@@ -1,0 +1,90 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.2",
+	"appid": "wxd9cf69b2b560c65f",
+	"projectname": "%E6%88%91%E7%9A%84%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A8%A1%E6%9D%BF",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 7,
+			"list": [
+				{
+					"id": 0,
+					"name": "data的赋值与取值",
+					"pathName": "pages/data-value/data-value",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "正在参与",
+					"pathName": "pages/participating/participating",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "语音列表",
+					"pathName": "pages/audio/audio-list/audio-list",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "语音详情",
+					"pathName": "pages/audio/audio-detail/audio-detail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "语音评论详情",
+					"pathName": "pages/audio/comment/comment",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "视频列表",
+					"pathName": "pages/video/video-list/video-list",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "视频详情",
+					"pathName": "pages/video/video-detail/video-detail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "列表收藏",
+					"pathName": "pages/favorite/favorite"
+				}
+			]
+		}
+	}
+}

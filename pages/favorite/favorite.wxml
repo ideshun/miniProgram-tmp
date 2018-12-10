@@ -1,0 +1,12 @@
+<!--pages/favorite/favorite.wxml-->
+<view class='page_container'>
+  <view class='good-item' wx:for='{{goodsList}}'>
+    <image class='good-img' src='{{item.img}}' mode='widthFix'></image>
+    <!-- <view class='page_container' wx:if="{{item.collected==1}}"> -->
+    <view class='fav-box'>
+      <!-- 收藏过 -->
+      <image class='fav-icon' catchtap='onCollectionTap' src="image/fav{{item.collected==1?'_on':''}}.png" data-index='{{index}}'></image>
+      <text>{{item.dzzs}}人想要</text>
+    </view>
+  </view>
+</view>

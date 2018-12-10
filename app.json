@@ -7,7 +7,8 @@
     "pages/audio/audio-detail/audio-detail",
     "pages/audio/comment/comment",
     "pages/video/video-list/video-list",
-    "pages/video/video-detail/video-detail"
+    "pages/video/video-detail/video-detail",
+    "pages/favorite/favorite"
   ],
   "window": {
     "navigationBarTextStyle": "black",
