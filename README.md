@@ -28,8 +28,8 @@
 - 预览图：  
 ![评论详情页（comment）](https://github.com/ideshun/miniProgram-tmp/blob/master/data/images/comment.png)
 
-## 列表点赞（comment）
+## 列表点赞（favourite）
 - 网址：
 [点击前往GitHub地址](https://github.com/ideshun/miniProgram-tmp/tree/master/pages/favorite "GitHub地址")
 - 预览图：  
-![评论详情页（comment）](https://github.com/ideshun/miniProgram-tmp/blob/master/data/images/favourite.png)
+![评论详情页（favourite）](https://github.com/ideshun/miniProgram-tmp/blob/master/data/images/favourite.png)
