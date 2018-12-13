@@ -28,18 +28,6 @@ Page({
         dzzs: '555',
         collected: 1,
         id: 4
-      },
-      {
-        img: 'image/mi.jpg',
-        dzzs: '666',
-        collected: 0,
-        id: 5
-      },
-      {
-        img: 'image/mi.jpg',
-        dzzs: '777',
-        collected: 0,
-        id: 6
       }
     ],
   },
